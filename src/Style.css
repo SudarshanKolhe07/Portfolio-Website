@@ -360,3 +360,282 @@
     grid-template-columns: 1fr;
   }
 }
+/* Skills section ends here */
+
+/* Projects section start here */
+.projects {
+  padding: 80px 60px;
+  text-align: center;
+  background-color: #0d1117;   /* Updated background */
+  color: #c9d1d9;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.projects h2 span {
+  color: #58a6ff;
+}
+
+.projects p {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  color: #a0a0a0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card */
+.project-card {
+  background: #161b22;   /* darker card for contrast */
+  padding: 25px;
+  border-radius: 12px;
+  text-align: left;
+  border: 1px solid #30363d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #58a6ff;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #c9d1d9;
+}
+
+/* Tags */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-tags span {
+  background: #21262d;      /* matches GitHub dark theme */
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  transition: all 0.3s ease;
+}
+
+.project-tags span:hover {
+  background: #30363d;
+  border-color: #58a6ff;
+  color: #58a6ff;
+  cursor: pointer;
+}
+
+/* Button */
+.btn-demo {
+  display: inline-block;
+  background: #58a6ff;
+  color: #0d1117;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-demo:hover {
+  background: #1f6feb;
+  color: #fff;
+}
+/* projects section ends here */
+
+.contact {
+  padding: 80px 60px;
+  background-color: #1c1e21;  /* Updated background */
+  color: #c9d1d9;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.contact h2 span {
+  color: #58a6ff;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  color: #a0a0a0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Form */
+.contact-form {
+  background: #161b22;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+  text-align: left;
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  color: #58a6ff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  background: #0d1117;
+  color: #c9d1d9;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #58a6ff;
+}
+
+/* Submit Button */
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #58a6ff, #1f6feb);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background: #1f6feb;
+}
+
+/* Contact Info */
+.contact-info {
+  background: #161b22;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+  text-align: left;
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  color: #58a6ff;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+}
+
+.info-box i {
+  font-size: 1.2rem;
+  color: #58a6ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+/* contact information ends here */
+
+.footer {
+  background-color: #0d1117;
+  padding: 20px 40px;
+  text-align: center;
+  border-top: 1px solid #30363d;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer p {
+  margin: 0;
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #1f6feb;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-content {
+    gap: 6px;
+  }
+  .footer-links {
+    gap: 14px;
+  }
+}
+

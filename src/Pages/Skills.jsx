@@ -29,7 +29,6 @@ export default function Skills() {
             <span>React.js</span>
             <span>HTML</span>
             <span>CSS</span>
-            <span>Tailwind CSS</span>
             <span>BootStrap</span>
           </div>
         </div>
@@ -62,7 +61,7 @@ export default function Skills() {
           <div className="skill-tags">
             <span>Data Structures & Algorithms</span>
             <span>DBMS</span>
-            <span>Operating Systems</span>
+            <span>OS</span>
             <span>Computer Networks</span>
             <span>AI & ML</span>
           </div>
