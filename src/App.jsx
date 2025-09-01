@@ -5,6 +5,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import './App.css'
 import Navbar from "./Components/Navbar"
 import Hero from "./Pages/Hero"
+import About from "./Pages/About"
+import Skills from "./Pages/Skills"
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
+      <About/>
+      <Skills/>
     </>
   )
 }
