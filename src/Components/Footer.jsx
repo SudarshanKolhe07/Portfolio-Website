@@ -10,13 +10,13 @@ export default function Footer() {
           <a href="#Contact">Contact</a>
         </div>
         <div className="footer-socials">
-          <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">
+          <a href="https://github.com/SudarshanKolhe07" target="_blank" rel="noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/sudarshankolhe" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://instagram.com/yourinsta" target="_blank" rel="noreferrer">
+          <a href="instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ws0x6iw" target="_blank" rel="noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
           <a href="mailto:sudarshankolhe04@gmail.com">
