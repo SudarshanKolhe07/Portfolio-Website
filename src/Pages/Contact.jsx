@@ -6,10 +6,6 @@ export default function Contact() {
   // function to send email
   function sendEmail(e) {
   e.preventDefault();
-  console.log("Service:", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
-console.log("Template:", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
-console.log("Public Key:", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
-
 
   emailjs
       .sendForm(
