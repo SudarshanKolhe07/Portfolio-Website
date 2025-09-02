@@ -2,28 +2,36 @@ import "../Style.css";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
+  
   // function to send email
   function sendEmail(e) {
-    e.preventDefault();
+  e.preventDefault();
+  console.log("Service:", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
+console.log("Template:", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
+console.log("Public Key:", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
 
-    emailjs
+
+  emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",   // replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID",  // replace with your EmailJS template ID
-        e.target,
-        "YOUR_PUBLIC_KEY"    // replace with your EmailJS public key
-      )
-      .then(
-        (result) => {
-          alert("✅ Message sent successfully!");
-        },
-        (error) => {
-          alert("❌ Failed to send. Please try again.");
-        }
-      );
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      e.target,
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+    )
+    .then(
+      (result) => {
+        console.log("✅ Success:", result.text);
+        alert("✅ Message sent successfully!");
+      },
+      (error) => {
+        console.error("❌ Error:", error.text);
+        alert("❌ Failed to send. Please try again.");
+      }
+    );
 
-    e.target.reset(); // clear form after submission
-  }
+  e.target.reset(); // Clear form after submission
+}
+
 
   return (
     <section className="contact" id="Contact">
