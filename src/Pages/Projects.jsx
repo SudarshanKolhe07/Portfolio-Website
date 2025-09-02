@@ -1,7 +1,7 @@
 import "../Style.css"
 export default function Projetcs(){
     return(
-        <section className="projects" id="projects">
+        <section className="projects" id="Projects">
   <h2>
     Featured <span>Projects</span>
   </h2>
@@ -73,6 +73,26 @@ export default function Projetcs(){
       </div>
       <a href="#" className="btn-demo">Live Demo</a>
     </div>
+
+    {/* Weather App Project */}
+<div className="project-card">
+  <div className="project-icon">☁️</div>
+  <h3>Weather Information App</h3>
+  <p>
+    A React-based web application to search and get real-time weather information 
+    including temperature, humidity, and conditions using a weather API.
+  </p>
+  <div className="project-tags">
+    <span>React</span>
+    <span>JavaScript</span>
+    <span>API</span>
+    <span>CSS</span>
+  </div>
+   <a href="https://get-weather-vbqa.onrender.com" className="btn-demo" target="_blank" rel="noreferrer">
+    Live Demo
+  </a>
+</div>
+
 
     {/* Automated MCQ Generator */}
     <div className="project-card">

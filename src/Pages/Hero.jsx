@@ -3,7 +3,7 @@ import "../Style.css"
 export default function Hero(){
 
     return(
-    <section className="hero">
+    <section className="hero" id="Hero">
       <div className="hero-content">
   <h1>
     Hi, I'm <span>Sudarshan</span>
@@ -14,9 +14,18 @@ export default function Hero(){
   </h2>
 
   <div className="hero-buttons">
-    <button className="btn-primary">View My Work</button>
+  {/* View Resume - Opens in a new tab */}
+  <a href="/Sudarshan_VIIT.pdf" target="_blank" rel="noreferrer">
+    <button className="btn-primary">View Resume</button>
+  </a>
+
+  {/* Download Resume */}
+  <a href="/Sudarshan_VIIT.pdf" download="Sudarshan_Kolhe.pdf">
     <button className="btn-secondary">Download Resume</button>
-  </div>
+  </a>
+</div>
+
+
 
   {/* Extra Social + Tech Section */}
   <div className="hero-extra">
@@ -24,13 +33,14 @@ export default function Hero(){
     <div className="available">
       <p>I'm available on</p>
       <div className="icons">
-        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/sudarshankolhe" target="_blank" rel="noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://instagram.com/yourinstagram" target="_blank" rel="noreferrer">
+        <a href="instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ws0x6iw
+" target="_blank" rel="noreferrer">
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">
+        <a href="https://github.com/SudarshanKolhe07" target="_blank" rel="noreferrer">
           <i className="fab fa-github"></i>
         </a>
       </div>

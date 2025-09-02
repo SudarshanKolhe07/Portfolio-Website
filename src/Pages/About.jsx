@@ -3,7 +3,7 @@ import "../Style.css";
 
 export default function About() {
   return (
-    <section className="about" id="about">
+    <section className="about" id="About">
       <h2>About <span>Me</span></h2>
       <p className="about-intro">
         I am Sudarshan Kolhe, an aspiring Software Engineer and AI & Data Science student at VIIT.  
