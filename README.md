@@ -39,4 +39,51 @@ This portfolio highlights my **skills, projects, education, and achievements** w
 │   └── main.jsx              # Entry point
 ├── package.json
 └── vite.config.js
+```
+#💻 Run Locally
+Clone repository:
 
+```bash
+git clone https://github.com/your-username/portfolio.git
+
+Go inside folder:
+cd portfolio
+
+Install dependencies:
+npm install
+
+Start development server:
+npm run dev
+```
+---
+
+##🚀 Deployment Instructions
+
+This portfolio is deployed on Render.
+You can also host it on Netlify or GitHub Pages.
+
+### 🔹 Render Deployment
+
+**Build Command:**
+
+```bash
+echo "No build step needed"
+```
+---
+
+##📄 License
+
+This project is open for learning and inspiration.
+Feel free to fork and customize it for your own portfolio.
+---
+
+## ⭐ Support
+
+If you like this portfolio, please consider giving it a star ⭐ on GitHub — it helps others discover it and keeps me motivated!
+
+---
+
+##✨ Created with ❤️ by Sudarshan Kolhe
+
+
+---
