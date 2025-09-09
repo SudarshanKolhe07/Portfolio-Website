@@ -1,12 +1,42 @@
-# React + Vite
+# 💼 Sudarshan Kolhe — Personal Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+🔗 **Live Site:** [sudarshan-portfolio-viim.onrender.com](https://sudarshan-portfolio-viim.onrender.com)  
 
-Currently, two official plugins are available:
+This portfolio highlights my **skills, projects, education, and achievements** while reflecting my passion for **software engineering, AI, and full-stack development**.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Vite), CSS3  
+- **Integration:** EmailJS (contact form), OpenWeather API (Weather app demo)  
+- **Hosting:** Render (Static Site Hosting)  
+
+---
+
+## 🌟 Features  
+
+- ✅ Modern, responsive dark-themed UI  
+- ✅ Hero section with resume links and social profiles  
+- ✅ About Me, Education & Internship details  
+- ✅ Categorized Skills section (Programming, Frontend, Backend, Databases, Coursework, Tools)  
+- ✅ Projects showcase with **Live Demo** links  
+- ✅ Contact form powered by **EmailJS**  
+- ✅ Footer with quick links and credits  
+
+---
+
+## 📁 Folder Structure  
+
+```plaintext
+.
+├── public/                   # Static assets (resume, icons, images)
+├── src/
+│   ├── components/           # Navbar, Hero, About, Skills, Projects, Contact, Footer
+│   ├── styles/               # CSS files
+│   ├── App.jsx               # Root React component
+│   └── main.jsx              # Entry point
+├── package.json
+└── vite.config.js
+
