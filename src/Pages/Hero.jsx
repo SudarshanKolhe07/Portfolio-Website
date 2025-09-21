@@ -36,8 +36,7 @@ export default function Hero(){
         <a href="https://www.linkedin.com/in/sudarshankolhe" target="_blank" rel="noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ws0x6iw
-" target="_blank" rel="noreferrer">
+        <a href="http://instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ws0x6iw" target="_blank" rel="noreferrer">
           <i className="fab fa-instagram"></i>
         </a>
         <a href="https://github.com/SudarshanKolhe07" target="_blank" rel="noreferrer">
