@@ -61,8 +61,13 @@ export default function Hero(){
 
 
       <div className="hero-image">
-        <span role="img" aria-label="coder">👨‍💻</span>
-      </div>
+  <img 
+    src="/Profile.jpg" 
+    alt="Sudarshan Kolhe Profile" 
+    className="profile-photo"
+  />
+</div>
+
     </section>
     )
 }

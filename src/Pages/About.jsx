@@ -20,7 +20,9 @@ export default function About() {
             <strong>B.Tech in AI & Data Science</strong> – VIIT (2023 – 2026)<br />
             CGPA: 8.57 <br /><br />
             <strong>Diploma in Computer Engineering</strong> – Govt. Polytechnic, Pune (2020 – 2023)<br />
-            Percentage: 81.67%
+            Percentage: 81.67% <br /> <br />
+            <strong>Sainiki Secondary & Higher Secondary School, B.</strong> (2014 – 2020)<br />
+            Percentage: 92%
           </p>
         </div>
 
